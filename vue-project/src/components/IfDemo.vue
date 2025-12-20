@@ -9,12 +9,13 @@
   <div v-show="flag">你还想看我吗</div>
 </template>
 
-<script lang="ts">
-export default {
-  data() {
-    return { flag: true, type: 'D' }
-  },
-}
+<script setup lang="ts">
+import { ref } from 'vue' // 引入 ref 定义响应式数据
+
+// 响应式数据（替代原 data() ）
+const flag = ref(true) // TS 自动推导类型为 boolean
+const type = ref('D') // TS 自动推导类型为 string
+
 // 为什么有了v-if还要增加v-show？
 // 因为v-if是惰性的，如果初次渲染为false，则不会做任何事，只有条件区块首先变为true时，才会渲染
 // v-show则是始终被渲染，只是根据条件决定是否显示，而v-if是根据条件进行了销毁与重建，
