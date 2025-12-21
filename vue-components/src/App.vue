@@ -5,7 +5,8 @@
   <!-- <ParentDemo /> -->
   <!-- <ComponentA /> -->
   <!-- <ComponentEvent /> -->
-  <MainForSearch />
+  <!-- <MainForSearch /> -->
+  <ComponentC />
 </template>
 
 <script setup lang="ts">
@@ -15,5 +16,6 @@
 // import ParentDemo from './components/ParentDemo.vue'
 // import ComponentA from './components/ComponentA.vue'
 // import ComponentEvent from './components/ComponentEvent.vue'
-import MainForSearch from './components/MainForSearch.vue'
+// import MainForSearch from './components/MainForSearch.vue'
+import ComponentC from './components/ComponentC.vue'
 </script>
