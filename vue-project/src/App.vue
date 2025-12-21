@@ -14,7 +14,8 @@
   <!-- <ClassDemo /> -->
   <!-- <StyleDemo /> -->
   <!-- <WatchDemo /> -->
-  <ModelDemo />
+  <!-- <ModelDemo /> -->
+  <RefDemo />
 </template>
 
 <script setup lang="ts">
@@ -33,5 +34,6 @@
 // import ClassDemo from './components/ClassDemo.vue'
 // import StyleDemo from './components/StyleDemo.vue'
 // import WatchDemo from './components/WatchDemo.vue'
-import ModelDemo from './components/ModelDemo.vue'
+// import ModelDemo from './components/ModelDemo.vue'
+import RefDemo from './components/RefDemo.vue'
 </script>
