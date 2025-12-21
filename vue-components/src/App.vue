@@ -3,7 +3,8 @@
   <MainOfApp />
   <AsideOfApp /> -->
   <!-- <ParentDemo /> -->
-  <ComponentA />
+  <!-- <ComponentA /> -->
+  <ComponentEvent />
 </template>
 
 <script setup lang="ts">
@@ -11,5 +12,6 @@
 // import MainOfApp from './pages/MainOfApp.vue'
 // import AsideOfApp from './pages/AsideOfApp.vue'
 // import ParentDemo from './components/ParentDemo.vue'
-import ComponentA from './components/ComponentA.vue'
+// import ComponentA from './components/ComponentA.vue'
+import ComponentEvent from './components/ComponentEvent.vue'
 </script>
