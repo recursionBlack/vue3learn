@@ -4,7 +4,8 @@
   <AsideOfApp /> -->
   <!-- <ParentDemo /> -->
   <!-- <ComponentA /> -->
-  <ComponentEvent />
+  <!-- <ComponentEvent /> -->
+  <MainForSearch />
 </template>
 
 <script setup lang="ts">
@@ -13,5 +14,6 @@
 // import AsideOfApp from './pages/AsideOfApp.vue'
 // import ParentDemo from './components/ParentDemo.vue'
 // import ComponentA from './components/ComponentA.vue'
-import ComponentEvent from './components/ComponentEvent.vue'
+// import ComponentEvent from './components/ComponentEvent.vue'
+import MainForSearch from './components/MainForSearch.vue'
 </script>
