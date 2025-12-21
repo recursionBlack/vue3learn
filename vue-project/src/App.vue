@@ -11,7 +11,8 @@
   <!-- <EventDemo6 /> -->
   <!-- <ArrayList /> -->
   <!-- <ComputedDemo /> -->
-  <ClassDemo />
+  <!-- <ClassDemo /> -->
+  <StyleDemo />
 </template>
 
 <script setup lang="ts">
@@ -27,5 +28,6 @@
 // import EventDemo6 from './components/EventDemo6.vue'
 // import ArrayList from './components/ArrayList.vue'
 // import ComputedDemo from './components/ComputedDemo.vue'
-import ClassDemo from './components/ClassDemo.vue'
+// import ClassDemo from './components/ClassDemo.vue'
+import StyleDemo from './components/StyleDemo.vue'
 </script>
