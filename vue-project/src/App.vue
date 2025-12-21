@@ -12,7 +12,8 @@
   <!-- <ArrayList /> -->
   <!-- <ComputedDemo /> -->
   <!-- <ClassDemo /> -->
-  <StyleDemo />
+  <!-- <StyleDemo /> -->
+  <WatchDemo />
 </template>
 
 <script setup lang="ts">
@@ -29,5 +30,6 @@
 // import ArrayList from './components/ArrayList.vue'
 // import ComputedDemo from './components/ComputedDemo.vue'
 // import ClassDemo from './components/ClassDemo.vue'
-import StyleDemo from './components/StyleDemo.vue'
+// import StyleDemo from './components/StyleDemo.vue'
+import WatchDemo from './components/WatchDemo.vue'
 </script>
